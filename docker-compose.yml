@@ -1,0 +1,62 @@
+version: '3.8'
+
+services:
+  app-levart:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/var/www/html
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    depends_on:
+      - postgres
+      - rabbitmq
+    environment:
+      - APP_ENV=development
+      - COMPOSER_ALLOW_SUPERUSER=1
+    networks:
+      - app-network
+
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: email_queue
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 12345
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    # networks:
+    #   - app-network
+    
+  pg-admin:
+    image: dpage/pgadmin4:6
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@admin.com
+      - PGADMIN_DEFAULT_PASSWORD=12345
+      - PGADMIN_LISTEN_PORT=5050
+    ports:
+      - "5050:5050"
+      
+  rabbitmq:
+    image: rabbitmq:3-management
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+
+    

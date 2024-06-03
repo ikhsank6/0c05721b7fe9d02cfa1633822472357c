@@ -1,0 +1,330 @@
+{
+	"info": {
+		"_postman_id": "c634d11d-105a-4026-b931-37ea6e254335",
+		"name": "Levart Test",
+		"description": "REST API ini digunakan untuk mengiirimkan email menggunakan queue",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6185322"
+	},
+	"item": [
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"ikhsankurniawan@gmail.com\",\r\n    \"name\": \"ikhsan\",\r\n    \"password\": \"secret\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/register",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"register"
+					]
+				},
+				"description": "Endpoint ini digunakan untuk registrasi user"
+			},
+			"response": [
+				{
+					"name": "register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"ikhsankurniawan@gmail.com\",\r\n    \"name\": \"ikhsan\",\r\n    \"password\": \"secret\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"register"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 03 Jun 2024 07:26:02 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.2"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS,GET,POST,PUT,DELETE"
+						},
+						{
+							"key": "Access-Control-Max-Age",
+							"value": "3600"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"User registered successfully\",\n    \"data\": []\n}"
+				}
+			]
+		},
+		{
+			"name": "login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);\r",
+							"if (jsonData.status==true){\r",
+							"    postman.setEnvironmentVariable(\"token\", jsonData.data.token);\r",
+							"}"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"ikhsankurniawan@gmail.com\",\r\n    \"password\": \"secret\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/login",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"login"
+					]
+				},
+				"description": "Endpoint ini digunakan untuk otentikasi user / login"
+			},
+			"response": [
+				{
+					"name": "login",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"ikhsankurniawan@gmail.com\",\r\n    \"password\": \"secret\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 03 Jun 2024 07:31:55 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.2"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS,GET,POST,PUT,DELETE"
+						},
+						{
+							"key": "Access-Control-Max-Age",
+							"value": "3600"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"None\",\n    \"data\": {\n        \"user\": {\n            \"id\": 1,\n            \"name\": \"ikhsan\",\n            \"email\": \"ikhsankurniawan@gmail.com\",\n            \"password\": \"$2y$10$V41T9SUxDY7P6VBxsM0Ece.h1zhuw/QgtLLXLmiFA3OdcoXjoKY0e\",\n            \"created_at\": \"2024-06-03 13:27:06.785655\",\n            \"updated_at\": null\n        },\n        \"token\": \"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJsb2NhbGhvc3QiLCJpYXQiOjE3MTczOTk5MTUsImV4cCI6MTcxNzQwMzUxNSwic3ViIjp7ImlkIjoxLCJuYW1lIjoiaWtoc2FuIiwiZW1haWwiOiJpa2hzYW5rdXJuaWF3YW5AZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMnkkMTAkVjQxVDlTVXhEWTdQNlZCeHNNMEVjZS5oMXpodXcvUWd0TExYTG1pRkEzT2Rjb1hqb0tZMGUiLCJjcmVhdGVkX2F0IjoiMjAyNC0wNi0wMyAxMzoyNzowNi43ODU2NTUiLCJ1cGRhdGVkX2F0IjpudWxsfX0.5D6Dj75wNxjQcnjGziyXHMwWuxvD-P7AvRwPQ518z6o\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Send Mail",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"to\": \"ikhsankurniawan@gmail.com\",\r\n    \"subject\": \"Test Send Email\",\r\n    \"body\": \"ini testing kirim email\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/send-email",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"send-email"
+					]
+				},
+				"description": "Endpint ini digunakan untuk mengirimkan email"
+			},
+			"response": [
+				{
+					"name": "Send Mail",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"to\": \"ikhsankurniawan@gmail.com\",\r\n    \"subject\": \"Test Send Email\",\r\n    \"body\": \"ini testing kirim email\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8000/send-email",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"send-email"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Host",
+							"value": "localhost:8000"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 03 Jun 2024 07:38:54 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.2"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "OPTIONS,GET,POST,PUT,DELETE"
+						},
+						{
+							"key": "Access-Control-Max-Age",
+							"value": "3600"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": true,\n    \"message\": \"Email sent successfully\",\n    \"data\": []\n}"
+				}
+			]
+		}
+	]
+}
