@@ -37,6 +37,7 @@ services:
     
   pg-admin:
     image: dpage/pgadmin4:6
+    container_name: pgadmin
     environment:
       - PGADMIN_DEFAULT_EMAIL=admin@admin.com
       - PGADMIN_DEFAULT_PASSWORD=12345
@@ -46,6 +47,7 @@ services:
       
   rabbitmq:
     image: rabbitmq:3-management
+    container_name: rabbitmq
     environment:
       RABBITMQ_DEFAULT_USER: guest
       RABBITMQ_DEFAULT_PASS: guest
