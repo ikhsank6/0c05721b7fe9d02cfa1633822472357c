@@ -36,7 +36,7 @@
     ```
 - Jalankan queue nya dengan supervisord
     ```
-    docker exec -it 82f956e877c2 supervisord
+    docker exec -it contain_ID supervisord
     ```
 - Untuk membuka rabbitmq server, buka dibrowser
     ```
