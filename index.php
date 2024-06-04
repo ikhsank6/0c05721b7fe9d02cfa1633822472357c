@@ -18,7 +18,7 @@ $userModel = new User($pdo);
 $authController = new AuthController($userModel);
 $emailService = new EmailService();
 $emailController = new EmailController($emailService);
-$jwtMiddleware = new JWTMiddleware($_ENV['JWT_SECRET']);
+$jwtMiddleware = new JWTMiddleware($_ENV['JWT_SECRET'], $userModel);
 $resp = new Response();
 
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);

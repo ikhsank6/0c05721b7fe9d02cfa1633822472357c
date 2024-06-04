@@ -1,5 +1,5 @@
 # Use the official PHP image with Apache
-FROM php:8.2-cli
+FROM php:8.3-cli
 
 # Install system dependencies and PHP extensions
 RUN apt-get update && apt-get install -y \
