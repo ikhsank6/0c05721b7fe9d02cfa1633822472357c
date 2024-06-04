@@ -309,3 +309,358 @@
 2024-06-03 14:03:06,792 WARN exited: consumer (exit status 255; not expected)
 2024-06-03 14:03:07,799 INFO spawned: 'consumer' with pid 56
 2024-06-03 14:03:08,805 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:43:32,079 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-04 06:43:32,103 INFO supervisord started with pid 1
+2024-06-04 06:43:33,107 INFO spawned: 'php-fpm' with pid 8
+2024-06-04 06:43:33,109 INFO spawned: 'consumer' with pid 9
+2024-06-04 06:43:34,121 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:43:34,122 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:43:34,123 WARN exited: php-fpm (exit status 127; not expected)
+2024-06-04 06:43:35,127 INFO spawned: 'php-fpm' with pid 10
+2024-06-04 06:43:35,139 WARN exited: php-fpm (exit status 127; not expected)
+2024-06-04 06:43:36,144 INFO spawned: 'php-fpm' with pid 11
+2024-06-04 06:43:36,150 WARN exited: php-fpm (exit status 127; not expected)
+2024-06-04 06:43:37,711 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:43:38,720 INFO spawned: 'php-fpm' with pid 12
+2024-06-04 06:43:38,726 INFO spawned: 'consumer' with pid 13
+2024-06-04 06:43:38,730 WARN exited: php-fpm (exit status 127; not expected)
+2024-06-04 06:43:39,734 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:43:41,350 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:43:42,354 INFO spawned: 'php-fpm' with pid 14
+2024-06-04 06:43:42,357 INFO spawned: 'consumer' with pid 15
+2024-06-04 06:43:42,363 WARN exited: php-fpm (exit status 127; not expected)
+2024-06-04 06:43:42,365 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-06-04 06:43:43,367 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:43:45,856 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:43:46,889 INFO spawned: 'consumer' with pid 16
+2024-06-04 06:43:47,910 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:43:48,920 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:43:49,924 INFO spawned: 'consumer' with pid 17
+2024-06-04 06:43:50,927 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:43:52,187 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:43:53,191 INFO spawned: 'consumer' with pid 18
+2024-06-04 06:43:54,208 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:43:56,326 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:43:57,334 INFO spawned: 'consumer' with pid 19
+2024-06-04 06:43:58,337 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:43:59,920 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:44:00,923 INFO spawned: 'consumer' with pid 20
+2024-06-04 06:44:01,927 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:44:03,401 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:44:04,405 INFO spawned: 'consumer' with pid 21
+2024-06-04 06:44:05,407 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:44:06,244 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:44:07,248 INFO spawned: 'consumer' with pid 22
+2024-06-04 06:44:08,251 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:44:08,766 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:44:09,769 INFO spawned: 'consumer' with pid 23
+2024-06-04 06:44:10,772 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:44:11,454 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:44:12,457 INFO spawned: 'consumer' with pid 24
+2024-06-04 06:44:13,460 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:44:14,536 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:44:15,541 INFO spawned: 'consumer' with pid 25
+2024-06-04 06:44:16,544 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:44:17,222 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:44:18,226 INFO spawned: 'consumer' with pid 26
+2024-06-04 06:44:19,230 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:44:22,890 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:44:23,893 INFO spawned: 'consumer' with pid 27
+2024-06-04 06:44:24,896 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:44:25,595 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:44:26,599 INFO spawned: 'consumer' with pid 28
+2024-06-04 06:44:27,606 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:44:31,119 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:44:32,122 INFO spawned: 'consumer' with pid 29
+2024-06-04 06:44:33,126 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:44:34,866 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:44:35,875 INFO spawned: 'consumer' with pid 30
+2024-06-04 06:44:36,877 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:44:37,796 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:44:38,800 INFO spawned: 'consumer' with pid 31
+2024-06-04 06:44:39,803 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:44:40,550 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:44:41,554 INFO spawned: 'consumer' with pid 32
+2024-06-04 06:44:42,556 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:44:43,020 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:44:44,023 INFO spawned: 'consumer' with pid 33
+2024-06-04 06:44:45,026 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:44:45,546 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:44:46,550 INFO spawned: 'consumer' with pid 34
+2024-06-04 06:44:47,552 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:44:48,020 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:44:49,024 INFO spawned: 'consumer' with pid 35
+2024-06-04 06:44:50,026 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:44:51,179 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:44:52,183 INFO spawned: 'consumer' with pid 36
+2024-06-04 06:44:53,186 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:44:53,530 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:44:54,534 INFO spawned: 'consumer' with pid 37
+2024-06-04 06:44:55,659 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:44:56,775 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:44:57,779 INFO spawned: 'consumer' with pid 38
+2024-06-04 06:44:58,817 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:00,349 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:01,354 INFO spawned: 'consumer' with pid 39
+2024-06-04 06:45:02,357 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:02,774 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:03,778 INFO spawned: 'consumer' with pid 40
+2024-06-04 06:45:04,780 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:06,023 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:07,027 INFO spawned: 'consumer' with pid 41
+2024-06-04 06:45:08,030 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:08,480 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:09,483 INFO spawned: 'consumer' with pid 42
+2024-06-04 06:45:10,486 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:11,301 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:12,304 INFO spawned: 'consumer' with pid 43
+2024-06-04 06:45:13,310 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:13,978 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:14,981 INFO spawned: 'consumer' with pid 44
+2024-06-04 06:45:15,984 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:16,408 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:17,411 INFO spawned: 'consumer' with pid 45
+2024-06-04 06:45:18,418 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:18,903 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:19,906 INFO spawned: 'consumer' with pid 46
+2024-06-04 06:45:20,910 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:21,531 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:22,535 INFO spawned: 'consumer' with pid 47
+2024-06-04 06:45:23,538 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:24,062 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:25,066 INFO spawned: 'consumer' with pid 48
+2024-06-04 06:45:26,083 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:27,049 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:28,053 INFO spawned: 'consumer' with pid 49
+2024-06-04 06:45:29,057 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:30,008 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:31,011 INFO spawned: 'consumer' with pid 50
+2024-06-04 06:45:32,013 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:32,668 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:33,671 INFO spawned: 'consumer' with pid 51
+2024-06-04 06:45:34,674 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:38,563 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:39,567 INFO spawned: 'consumer' with pid 52
+2024-06-04 06:45:40,570 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:41,217 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:42,221 INFO spawned: 'consumer' with pid 53
+2024-06-04 06:45:43,224 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:44,198 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:45,203 INFO spawned: 'consumer' with pid 54
+2024-06-04 06:45:46,221 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:49,417 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:50,421 INFO spawned: 'consumer' with pid 55
+2024-06-04 06:45:51,424 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:51,979 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:52,983 INFO spawned: 'consumer' with pid 56
+2024-06-04 06:45:53,985 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:54,758 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:55,762 INFO spawned: 'consumer' with pid 57
+2024-06-04 06:45:56,764 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:45:57,138 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:45:58,144 INFO spawned: 'consumer' with pid 58
+2024-06-04 06:45:59,147 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:46:00,762 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:46:01,766 INFO spawned: 'consumer' with pid 59
+2024-06-04 06:46:02,770 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:46:03,272 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:46:04,276 INFO spawned: 'consumer' with pid 60
+2024-06-04 06:46:05,278 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:46:06,251 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:46:07,254 INFO spawned: 'consumer' with pid 61
+2024-06-04 06:46:08,308 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:46:09,024 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:46:10,027 INFO spawned: 'consumer' with pid 62
+2024-06-04 06:46:11,092 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:46:11,782 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:46:12,785 INFO spawned: 'consumer' with pid 63
+2024-06-04 06:46:13,789 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:46:15,722 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:46:16,728 INFO spawned: 'consumer' with pid 64
+2024-06-04 06:46:17,800 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:46:25,870 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:46:26,875 INFO spawned: 'consumer' with pid 65
+2024-06-04 06:46:27,878 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:52:23,680 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-04 06:52:23,895 INFO supervisord started with pid 1
+2024-06-04 06:52:24,899 INFO spawned: 'php-fpm' with pid 7
+2024-06-04 06:52:24,903 INFO spawned: 'consumer' with pid 8
+2024-06-04 06:52:24,908 WARN exited: php-fpm (exit status 127; not expected)
+2024-06-04 06:52:25,912 INFO spawned: 'php-fpm' with pid 9
+2024-06-04 06:52:25,913 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:52:25,917 WARN exited: php-fpm (exit status 127; not expected)
+2024-06-04 06:52:27,922 INFO spawned: 'php-fpm' with pid 10
+2024-06-04 06:52:27,929 WARN exited: php-fpm (exit status 127; not expected)
+2024-06-04 06:52:30,936 INFO spawned: 'php-fpm' with pid 11
+2024-06-04 06:52:30,962 WARN exited: php-fpm (exit status 127; not expected)
+2024-06-04 06:52:31,006 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-06-04 06:52:31,032 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:52:32,038 INFO spawned: 'consumer' with pid 12
+2024-06-04 06:52:33,050 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:52:33,084 WARN received SIGTERM indicating exit request
+2024-06-04 06:52:33,117 INFO waiting for consumer to die
+2024-06-04 06:52:33,229 WARN stopped: consumer (terminated by SIGTERM)
+2024-06-04 06:52:42,399 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-04 06:52:42,411 INFO supervisord started with pid 1
+2024-06-04 06:52:43,414 INFO spawned: 'php-fpm' with pid 8
+2024-06-04 06:52:43,426 INFO spawned: 'consumer' with pid 9
+2024-06-04 06:52:43,432 WARN exited: php-fpm (exit status 127; not expected)
+2024-06-04 06:52:44,439 INFO spawned: 'php-fpm' with pid 10
+2024-06-04 06:52:44,451 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:52:44,499 WARN exited: php-fpm (exit status 127; not expected)
+2024-06-04 06:52:46,511 INFO spawned: 'php-fpm' with pid 11
+2024-06-04 06:52:46,529 WARN exited: php-fpm (exit status 127; not expected)
+2024-06-04 06:52:47,931 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:52:48,935 INFO spawned: 'consumer' with pid 12
+2024-06-04 06:52:49,968 INFO spawned: 'php-fpm' with pid 13
+2024-06-04 06:52:49,970 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:52:49,993 WARN exited: php-fpm (exit status 127; not expected)
+2024-06-04 06:52:49,996 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-06-04 06:52:51,440 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:52:52,443 INFO spawned: 'consumer' with pid 14
+2024-06-04 06:52:53,446 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:52:56,189 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:52:57,194 INFO spawned: 'consumer' with pid 15
+2024-06-04 06:52:58,197 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:52:59,131 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:53:00,135 INFO spawned: 'consumer' with pid 16
+2024-06-04 06:53:01,140 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:53:02,540 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:53:03,544 INFO spawned: 'consumer' with pid 17
+2024-06-04 06:53:04,557 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:53:06,256 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:53:07,261 INFO spawned: 'consumer' with pid 18
+2024-06-04 06:53:08,264 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:53:09,105 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:53:10,108 INFO spawned: 'consumer' with pid 19
+2024-06-04 06:53:11,112 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:53:12,828 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:53:13,838 INFO spawned: 'consumer' with pid 20
+2024-06-04 06:53:14,841 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:53:17,304 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:53:18,308 INFO spawned: 'consumer' with pid 21
+2024-06-04 06:53:19,327 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:53:21,624 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:53:22,627 INFO spawned: 'consumer' with pid 22
+2024-06-04 06:53:23,631 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:53:25,509 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:53:26,512 INFO spawned: 'consumer' with pid 23
+2024-06-04 06:53:27,515 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:53:29,702 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:53:30,706 INFO spawned: 'consumer' with pid 24
+2024-06-04 06:53:31,710 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:53:33,198 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:53:34,202 INFO spawned: 'consumer' with pid 25
+2024-06-04 06:53:35,205 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:53:36,867 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:53:37,871 INFO spawned: 'consumer' with pid 26
+2024-06-04 06:53:38,873 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:53:39,094 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:53:40,097 INFO spawned: 'consumer' with pid 27
+2024-06-04 06:53:41,101 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:53:41,582 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:53:42,598 INFO spawned: 'consumer' with pid 28
+2024-06-04 06:53:43,601 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:53:43,955 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:53:44,960 INFO spawned: 'consumer' with pid 29
+2024-06-04 06:53:45,962 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:53:46,367 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:53:47,371 INFO spawned: 'consumer' with pid 30
+2024-06-04 06:53:48,374 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:53:49,109 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:53:50,113 INFO spawned: 'consumer' with pid 31
+2024-06-04 06:53:51,115 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:53:52,124 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:53:53,127 INFO spawned: 'consumer' with pid 32
+2024-06-04 06:53:54,130 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:53:54,829 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:53:55,833 INFO spawned: 'consumer' with pid 33
+2024-06-04 06:53:56,836 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:53:56,838 WARN received SIGTERM indicating exit request
+2024-06-04 06:53:56,841 INFO waiting for consumer to die
+2024-06-04 06:53:56,854 WARN stopped: consumer (terminated by SIGTERM)
+2024-06-04 06:55:24,524 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-06-04 06:55:24,534 INFO supervisord started with pid 1
+2024-06-04 06:55:25,537 INFO spawned: 'php-fpm' with pid 8
+2024-06-04 06:55:25,540 INFO spawned: 'consumer' with pid 9
+2024-06-04 06:55:25,545 WARN exited: php-fpm (exit status 127; not expected)
+2024-06-04 06:55:26,553 INFO spawned: 'php-fpm' with pid 10
+2024-06-04 06:55:26,558 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:55:26,564 WARN exited: php-fpm (exit status 127; not expected)
+2024-06-04 06:55:28,697 INFO spawned: 'php-fpm' with pid 11
+2024-06-04 06:55:28,699 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:55:28,708 INFO spawned: 'consumer' with pid 12
+2024-06-04 06:55:28,710 WARN exited: php-fpm (exit status 127; not expected)
+2024-06-04 06:55:29,714 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:55:30,946 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:55:31,949 INFO spawned: 'php-fpm' with pid 13
+2024-06-04 06:55:31,953 INFO spawned: 'consumer' with pid 14
+2024-06-04 06:55:31,956 WARN exited: php-fpm (exit status 127; not expected)
+2024-06-04 06:55:31,957 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2024-06-04 06:55:32,963 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:55:34,038 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:55:35,042 INFO spawned: 'consumer' with pid 15
+2024-06-04 06:55:36,045 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:55:36,713 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:55:37,716 INFO spawned: 'consumer' with pid 16
+2024-06-04 06:55:38,718 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:55:39,882 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:55:40,885 INFO spawned: 'consumer' with pid 17
+2024-06-04 06:55:41,888 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:55:43,461 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:55:44,464 INFO spawned: 'consumer' with pid 18
+2024-06-04 06:55:45,466 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:55:47,148 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:55:48,151 INFO spawned: 'consumer' with pid 19
+2024-06-04 06:55:49,154 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:55:50,189 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:55:51,194 INFO spawned: 'consumer' with pid 20
+2024-06-04 06:55:52,197 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:55:53,117 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:55:54,120 INFO spawned: 'consumer' with pid 21
+2024-06-04 06:55:55,123 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:55:56,358 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:55:57,362 INFO spawned: 'consumer' with pid 22
+2024-06-04 06:55:58,366 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:55:59,272 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:56:00,276 INFO spawned: 'consumer' with pid 23
+2024-06-04 06:56:01,279 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:56:02,514 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:56:03,518 INFO spawned: 'consumer' with pid 24
+2024-06-04 06:56:06,567 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:56:13,982 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:56:14,989 INFO spawned: 'consumer' with pid 25
+2024-06-04 06:56:15,994 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:56:16,962 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:56:17,965 INFO spawned: 'consumer' with pid 26
+2024-06-04 06:56:18,968 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:56:19,737 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:56:20,740 INFO spawned: 'consumer' with pid 27
+2024-06-04 06:56:21,743 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:56:22,274 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:56:23,277 INFO spawned: 'consumer' with pid 28
+2024-06-04 06:56:24,280 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:56:25,648 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:56:26,652 INFO spawned: 'consumer' with pid 29
+2024-06-04 06:56:27,654 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:56:28,682 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:56:29,686 INFO spawned: 'consumer' with pid 30
+2024-06-04 06:56:30,689 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:56:32,143 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:56:33,147 INFO spawned: 'consumer' with pid 31
+2024-06-04 06:56:34,151 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:56:35,252 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:56:36,255 INFO spawned: 'consumer' with pid 32
+2024-06-04 06:56:37,258 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:56:37,997 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:56:39,001 INFO spawned: 'consumer' with pid 33
+2024-06-04 06:56:40,005 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:56:40,884 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:56:41,888 INFO spawned: 'consumer' with pid 34
+2024-06-04 06:56:42,890 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:56:43,674 WARN exited: consumer (exit status 255; not expected)
+2024-06-04 06:56:44,680 INFO spawned: 'consumer' with pid 35
+2024-06-04 06:56:45,683 INFO success: consumer entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-06-04 06:56:45,684 WARN received SIGTERM indicating exit request
+2024-06-04 06:56:45,685 INFO waiting for consumer to die
+2024-06-04 06:56:45,689 WARN stopped: consumer (terminated by SIGTERM)

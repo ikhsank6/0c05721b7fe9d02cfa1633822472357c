@@ -28,7 +28,7 @@
     ```
 - Jalankan aplikasi
     ```
-    php -S 127.0.0.1:8000 index.php
+    php -S 127.0.0.1:8080 index.php
     ```
 - Sebelum menjalankan worker pastikan **RabbitMQ** sudah jalan di lokal Anda
 - Buka terminal lagi, untuk menjalankan workerny
